@@ -40,10 +40,13 @@
 
                         <li>
                             <a href="/nosotros/index.html"
-                                class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Mas informacion</a>
+                                class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Nosotros</a>
                         </li>
 
-
+                        <li>
+                            <a href="/galeria/index.html"
+                                class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Galeria</a>
+                        </li>
                     </ul>
                 </div>
             </div>
@@ -61,7 +64,8 @@
                     <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Est sequi temporibus atque eligendi
                         tempora quasi blanditiis, deserunt eius enim delectus reprehenderit expedita incidunt sunt
                         necessitatibus alias rerum earum, ratione obcaecati.</p>
-                    <button>Ver mas informacion</button>
+                    <button data-modal-target="default-modal" data-modal-toggle="default-modal" type="button">Ver mas
+                        informacion</button>
                 </div>
                 <div>
                     <img class="img-compu"
@@ -80,62 +84,176 @@
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore ea recusandae officia distinctio
                         commodi qui ratione soluta voluptas rem totam! Amet provident itaque voluptates expedita non,
                         pariatur quae repellendus necessitatibus.</p>
-                    <button>Ver mas informacion</button>
+                    <button data-modal-target="default-modal" data-modal-toggle="default-modal" type="button">Ver mas
+                        informacion</button>
                 </div>
             </section>
         </article>
 
         <article>
-            <h1 style="text-align: center; font-size: 20px; font-weight: bold;">Algunas Imagenes</h1>
-            <section class="galery">
-                <div class="grid grid-cols-2 md:grid-cols-3 gap-4">
+            <h2 style="text-align: center; font-size: 25px;">Desarrollo de aplicaciones moviles</h2>
+            <div class="developer">
+                <div class="container-app">
                     <div>
-                        <img class="h-auto max-w-full rounded-lg"
-                            src="https://concepto.de/wp-content/uploads/2018/08/software-de-sistema-1-e1534948748523.jpg" alt="">
+                        <img class="img-cel hidden sm:block" alt="logo"
+                            src="https://www.apple.com/v/iphone-15/c/images/overview/contrast/iphone_15pro__ezc4eofw13yq_large.jpg" />
                     </div>
-                    <div>
-                        <img class="h-auto max-w-full rounded-lg"
-                            src="https://umg.edu.gt/img/facultades/sistemas/sistemas6.webp" alt="">
+                    <div class="app-text">
+                        <h2 style="display: flex; align-items: center; justify-content: center;"
+                            class="text-left text-xl sm:mt-0 mt-6 font-semibold tracking-tight sm:text-2xl sm:leading-none max-w-lg mb-6">
+                            iOS
+                            <img style="width: 25px; height: 25px; object-fit: contain; margin-left: 5px;"
+                                src="https://www.freepnglogos.com/uploads/apple-logo-png/carve-apple-logo-pumpkin-5.png"
+                                alt="">
+                        </h2>
+                        <div class="text-left text-base md:text-lg">
+                            <p>Lorem Ipsum is so cool and awesome to act and so cool to think. And very
+                                awesome to eat and talk.</p>
+
+                        </div>
                     </div>
+                </div>
+
+                <div class="container-app">
                     <div>
-                        <img class="h-auto max-w-full rounded-lg"
-                            src="https://umg.edu.gt/img/facultades/sistemas/sistemas3.webp" alt="">
+                        <img class="img-cel hidden sm:block" alt="logo"
+                            src="https://cdn.storech.com/uploads/products/000/000/000/000/020/221/300_1707312947-web-chapser-5x5-maxeri-hamar.gray-titan-.png" />
                     </div>
-                    <div>
-                        <img class="h-auto max-w-full rounded-lg"
-                            src="https://www.umg.edu.gt/en/img/laboratorios/computo/7.webp" alt="">
+                    <div class="app-text">
+                        <h2 style="display: flex; align-items: center; justify-content: center;"
+                            class="text-left text-xl sm:mt-0 mt-6 font-semibold tracking-tight sm:text-2xl sm:leading-none max-w-lg mb-6">
+                            Android
+                            <img style="width: 50px; height: 50px; object-fit: contain;"
+                                src="https://www.freepnglogos.com/uploads/android-logo-png/android-logo-0.png" alt="">
+                        </h2>
+                        <div class="text-left text-base md:text-lg">
+                            <p>Lorem Ipsum is so cool and awesome to act and so cool to think. And very
+                                awesome to eat and talk.</p>
+                            <div class="text-sky-600 mt-4">
+
+                            </div>
+                        </div>
                     </div>
-                    <div>
-                        <img class="h-auto max-w-full rounded-lg"
-                            src="https://umg.edu.gt/img/aulas/03.webp" alt="">
+                </div>
+            </div>
+        </article>
+
+        <article class="Frameworks">
+            <h2 style="text-align: center; font-size: 25px;">Principales Frameworks y Librerias de Desarrollo web</h2>
+            <section class="container-frame">
+
+
+                <div
+                    class="w-full max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+
+                    <div style="padding-top: 1em;" class="flex flex-col items-center pb-10">
+                        <img class="w-24 h-24 mb-3 rounded-full shadow-lg" style="object-fit: cover;"
+                            src="https://miro.medium.com/v2/resize:fit:1200/1*y6C4nSvy2Woe0m7bWEn4BA.png"
+                            alt="Bonnie image" />
+                        <h5 class="mb-1 text-xl font-medium text-gray-900 dark:text-white">REACT JS</h5>
+                        <span class="text-sm text-gray-500 dark:text-gray-400">Framework</span>
+                        <div class="flex mt-4 md:mt-6">
+                            <a href="#"
+                                class="inline-flex items-center px-4 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+                                Mas informacion</a>
+
+                        </div>
                     </div>
-                    <div>
-                        <img class="h-auto max-w-full rounded-lg"
-                            src="https://umg.edu.gt/img/cu/guatemala/galeria/campus-central-galeria15.webp" alt="">
+                </div>
+
+                <div
+                    class="w-full max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+
+                    <div style="padding-top: 1em;" class="flex flex-col items-center pb-10">
+                        <img class="w-24 h-24 mb-3 rounded-full shadow-lg" style="object-fit: cover;"
+                            src="https://i.pinimg.com/originals/7b/be/9c/7bbe9c289e3a6be3c03e658e819ba3c1.jpg"
+                            alt="Bonnie image" />
+                        <h5 class="mb-1 text-xl font-medium text-gray-900 dark:text-white">ANGULAR JS</h5>
+                        <span class="text-sm text-gray-500 dark:text-gray-400">Framework</span>
+                        <div class="flex mt-4 md:mt-6">
+                            <a href="#"
+                                class="inline-flex items-center px-4 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+                                Mas informacion</a>
+
+                        </div>
                     </div>
-                    <div>
-                        <img class="h-auto max-w-full rounded-lg"
-                            src="https://www.fin.edu.gt/sedes/img/photos/campus_central.jpg" alt="">
+                </div>
+
+
+                <div
+                    class="w-full max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+
+                    <div style="padding-top: 1em;" class="flex flex-col items-center pb-10">
+                        <img class="w-24 h-24 mb-3 rounded-full shadow-lg" style="object-fit: cover;"
+                            src="https://res.cloudinary.com/ddxwdqwkr/image/upload/f_auto/v1689120136/patterns.dev/Images/vue/og-images/introduction.png"
+                            alt="Bonnie image" />
+                        <h5 class="mb-1 text-xl font-medium text-gray-900 dark:text-white">VUE JS</h5>
+                        <span class="text-sm text-gray-500 dark:text-gray-400">Framework</span>
+                        <div class="flex mt-4 md:mt-6">
+                            <a href="#"
+                                class="inline-flex items-center px-4 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+                                Mas informacion</a>
+
+                        </div>
                     </div>
-                    <div>
-                        <img class="h-auto max-w-full rounded-lg"
-                            src="https://sig.muniguate.com/proyectosDIGM/cultura/universidades/UNIVERSIDADES/images/thumbs/umg/04.jpg" alt="">
+                </div>
+
+            </section>
+            <section class="container-frame">
+
+
+                <div
+                    class="w-full max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+
+                    <div style="padding-top: 1em;" class="flex flex-col items-center pb-10">
+                        <img class="w-24 h-24 mb-3 rounded-full shadow-lg" style="object-fit: cover;"
+                            src="https://miro.medium.com/v2/resize:fit:1400/1*oDgPd01FKboRjQA19CZYIw.png"
+                            alt="Bonnie image" />
+                        <h5 class="mb-1 text-xl font-medium text-gray-900 dark:text-white">ASTRO JS</h5>
+                        <span class="text-sm text-gray-500 dark:text-gray-400">Framework</span>
+                        <div class="flex mt-4 md:mt-6">
+                            <a href="#"
+                                class="inline-flex items-center px-4 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+                                Mas informacion</a>
+
+                        </div>
                     </div>
-                    <div>
-                        <img class="h-auto max-w-full rounded-lg"
-                            src="https://fastly.4sqi.net/img/general/600x600/12253051__5i5DUH7EzxC5U3XrsvEjH_L5HDwcx1iPazYmf4nmQQ.jpg" alt="">
+                </div>
+
+                <div
+                    class="w-full max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+
+                    <div style="padding-top: 1em;" class="flex flex-col items-center pb-10">
+                        <img class="w-24 h-24 mb-3 rounded-full shadow-lg" style="object-fit: cover;"
+                            src="https://pbs.twimg.com/profile_images/1565710214019444737/if82cpbS_400x400.jpg"
+                            alt="Bonnie image" />
+                        <h5 class="mb-1 text-xl font-medium text-gray-900 dark:text-white">NEXT JS</h5>
+                        <span class="text-sm text-gray-500 dark:text-gray-400">Framework</span>
+                        <div class="flex mt-4 md:mt-6">
+                            <a href="#"
+                                class="inline-flex items-center px-4 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+                                Mas informacion</a>
+
+                        </div>
                     </div>
-                    <div>
-                        <img class="h-auto max-w-full rounded-lg"
-                            src="https://www.fin.edu.gt/sedes/img/photos/sede_escuintla.jpg" alt="">
-                    </div>
-                    <div>
-                        <img class="h-auto max-w-full rounded-lg"
-                            src="https://umg.edu.gt/img/aulas/01.webp" alt="">
-                    </div>
-                    <div>
-                        <img class="h-auto max-w-full rounded-lg"
-                            src="https://umg.edu.gt/img/cu/quetzaltenango/galeria/quetzaltenango_galeria_1.webp" alt="">
+                </div>
+
+
+                <div
+                    class="w-full max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+
+                    <div style="padding-top: 1em;" class="flex flex-col items-center pb-10">
+                        <img class="w-24 h-24 mb-3 rounded-full shadow-lg" style="object-fit: cover;"
+                            src="https://i.ytimg.com/vi/efAMY1JvrcQ/maxresdefault.jpg"
+                            alt="Bonnie image" />
+                        <h5 class="mb-1 text-xl font-medium text-gray-900 dark:text-white">SVELTE JS</h5>
+                        <span class="text-sm text-gray-500 dark:text-gray-400">Framework</span>
+                        <div class="flex mt-4 md:mt-6">
+                            <a href="#"
+                                class="inline-flex items-center px-4 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+                                Mas informacion</a>
+
+                        </div>
                     </div>
                 </div>
 
@@ -196,5 +314,48 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.js"></script>
     <script src="./app.js"></script>
 </body>
+<!-- Parte del modal -->
+
+
+<!-- Main modal -->
+<div id="default-modal" tabindex="-1" aria-hidden="true"
+    class="hidden overflow-y-auto overflow-x-hidden fixed top-0 right-0 left-0 z-50 justify-center items-center w-full md:inset-0 h-[calc(100%-1rem)] max-h-full">
+    <div class="relative p-4 w-full max-w-2xl max-h-full">
+        <!-- Modal content -->
+        <div class="relative bg-white rounded-lg shadow dark:bg-gray-700">
+            <!-- Modal header -->
+            <div class="flex items-center justify-between p-4 md:p-5 border-b rounded-t dark:border-gray-600">
+                <h3 class="text-xl font-semibold text-gray-900 dark:text-white">
+                    Ingenieria en Sistemas
+                </h3>
+                <button type="button"
+                    class="text-gray-400 bg-transparent hover:bg-gray-200 hover:text-gray-900 rounded-lg text-sm w-8 h-8 ms-auto inline-flex justify-center items-center dark:hover:bg-gray-600 dark:hover:text-white"
+                    data-modal-hide="default-modal">
+                    <svg class="w-3 h-3" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none"
+                        viewBox="0 0 14 14">
+                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="m1 1 6 6m0 0 6 6M7 7l6-6M7 7l-6 6" />
+                    </svg>
+                    <span class="sr-only">Close modal</span>
+                </button>
+            </div>
+            <!-- Modal body -->
+            <div class="p-4 md:p-5 space-y-4">
+                <div class="contenedor-modal">
+                    <img class="img-modal"
+                        src="https://www.pixartprinting.it/blog/wp-content/uploads/2022/11/IMMAGINE-1.jpg" alt="">
+                    <p class="text-base leading-relaxed text-gray-500 dark:text-gray-400">
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quidem eaque aut illo reiciendis
+                        impedit ut maiores, vel est porro nulla, unde quo aliquam voluptas, aliquid velit ipsam
+                        cupiditate incidunt inventore.
+                    </p>
+                </div>
+            </div>
+            <!-- Modal footer -->
+
+        </div>
+    </div>
+</div>
+
 
 </html>

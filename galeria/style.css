@@ -1,0 +1,30 @@
+* { 
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body { 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.galery { 
+    padding: 5em;
+}
+
+.galery img  { 
+    height: 200px;
+    width: 400px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.text-footer { 
+    font-size: 10px;
+}
+
+.icons { 
+    transition: 2s ease;
+}
+
+.icons:hover { 
+    transform: rotate(360deg);
+}
