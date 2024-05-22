@@ -1,0 +1,59 @@
+
+.text-footer { 
+    font-size: 10px;
+}
+
+.icons { 
+    transition: 2s ease;
+}
+
+.icons:hover { 
+    transform: rotate(360deg);
+}
+
+.informacion-computacion { 
+    display: flex; 
+    align-items: center;
+    justify-content: space-between;
+    padding: 4em;   
+    gap: 1em;
+    flex-wrap: wrap;
+}
+
+.img-compu { 
+    width: 400px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.informacion-computacion h1 { 
+    font-size: 25px;
+    font-weight: bold;
+}
+.informacion-computacion p { 
+    font-size: 15px;
+    text-align: justify;
+    width: 500px;
+}
+
+.informacion-computacion button { 
+    background: rgb(25, 121, 246);
+    padding: 5px;
+    width: 300px;
+    height: 30px;
+    margin-top: 3em;
+    color: white;
+    font-size: 10px;
+    font-weight: bold;
+    border-radius: 10px;
+    transition: 1s ease;
+}
+
+.informacion-computacion button:hover { 
+    background-color: blue;
+}
+
+.galery { 
+    padding: 5em;
+}
